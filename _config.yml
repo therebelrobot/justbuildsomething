@@ -1,0 +1,24 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Just Build Something
+email: trentoswald@therebelrobot.com
+description: > # A community-curated project idea generator for the enterprising
+  developer.
+baseurl: "/justbuildsomething" # the subpath of your site, e.g. /blog
+url: "http://therebelrobot.github.io" # the base hostname & protocol for your site
+twitter_username: therebelrobot
+twitter_card_type: summary_large_image
+
+facebook_site_type: profile
+facebook_admin_id: 582330320
+
+github_username:  therebelrobot
+
+# Build settings
+markdown: kramdown
