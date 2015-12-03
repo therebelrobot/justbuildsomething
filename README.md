@@ -8,19 +8,22 @@ All ideas here are released for whatever you like under the [WTFPL-2.0](https://
 
 ### Non-UI Applications
 
-Project Name | Project Description | Additional Info
+Project Name | Project Description | Additional Info: ideas / source / etc.
 ------------ | ------------------- | ---------------
 calculator | simple addition, subtraction, multiplication, division | Maybe try order of operations parsing?
 REST api | an outward-facing web API following REST standards | [learn-x-with-apis](https://github.com/therebelrobot/learn-x-with-apis)
-
+dice roller | simulate the rolling of dice | Maybe try different kinds of die? d20 for example? [source](http://knightlab.northwestern.edu/2014/06/05/five-mini-programming-projects-for-the-python-beginner/)
+mad libs | Build a story from user input | [source](http://knightlab.northwestern.edu/2014/06/05/five-mini-programming-projects-for-the-python-beginner/)
+choose your own adventure | Build a text-based adventure game where the user can choose where to go and what to do | [source](http://knightlab.northwestern.edu/2014/06/05/five-mini-programming-projects-for-the-python-beginner/)
 
 ### UI Applications
 
-Project Name | Project Description | Additional Info
+Project Name | Project Description | Additional Info: ideas / source / etc.
 ------------ | ------------------- | ---------------
 Note Taker | A mobile-first note taking app | 
 To Do List | A standard todo list, add/remove tasks | [ToDo MVC](http://todomvc.com/)
 Chat Room | A realtime chatroom | 
+Hangman | Like the kids game: try to guess the letters without too many wrond answers | [source](http://knightlab.northwestern.edu/2014/06/05/five-mini-programming-projects-for-the-python-beginner/)
 
 ## Contribution
 
