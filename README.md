@@ -8,7 +8,14 @@ All ideas here are released for whatever you like under the [WTFPL-2.0](https://
 
 ### Non-UI Applications
 
+Project Name | Project Description | Additional Info
+------------ | ------------------- | ---------------
+
 ### UI Applications
+
+Project Name | Project Description | Additional Info
+------------ | ------------------- | ---------------
+note-taker | A mobile-first note taking app | 
 
 ## Contribution
 
