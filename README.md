@@ -12,7 +12,7 @@ All ideas here are released for whatever you like under the [WTFPL-2.0](https://
 
 ## Contribution
 
-As I said above, I want this to be a *community-curated* project, so I need your ideas! Or your hate mail! or anything, really! Open up a Github Issue here, or tweet me [@therebelrobot](https://twitter.com/therebelrobot) and we'll discuss getting your idea on the list.
+As I said above, I want this to be a *community-curated* project, so I need your ideas! Or your hate mail! or anything, really! Open up a [Github Issue](https://github.com/therebelrobot/justbuildsomething/issues/new) here, or tweet me [@therebelrobot](https://twitter.com/therebelrobot) and we'll discuss getting your idea on the list.
 
 ## Successful Builds
 
