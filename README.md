@@ -54,3 +54,11 @@ As I said above, I want this to be a *community-curated* project, so I need your
 ```markdown
 [![Just Build Something](https://img.shields.io/badge/just-build_something-blue.svg?style=flat-square)](https://github.com/therebelrobot/justbuildsomething)
 ```
+## Sources
+
+*If you have any large lists that you pulled ideas from, or want to send more traffic to, they can be added here.*
+
+| URL |
+| --- |
+| http://knightlab.northwestern.edu/2014/06/05/five-mini-programming-projects-for-the-python-beginner/ |
+| https://www.reddit.com/r/learnprogramming/comments/2a9ygh/1000_beginner_programming_projects_xpost/ |
