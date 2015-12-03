@@ -2,7 +2,7 @@
 
 Finding projects to test new languages/frameworks out on can be a challenge sometimes. I'm pulling together a community-curated (*that means you!*) list of small projects that can be used to play with new tech, show off your skills, or just kill some time. 
 
-All ideas here are released for whatever you like under the [WTFPL-2.0](https://tldrlegal.com/license/do-wtf-you-want-to-public-license-v2-(wtfpl-2.0)) License. Build the next big startup with it! Or integrate it into your new library! Or take over the solar system with it!
+All ideas here are released for whatever you like under the [WTFPL-2.0](https://tldrlegal.com/license/do-wtf-you-want-to-public-license-v2-(wtfpl-2.0)) License. Roll the next release of your library with it! Build the next big startup with it! Take over Westoros with it!
 
 ### Non-UI Applications
 
