@@ -18,8 +18,9 @@ REST api | an outward-facing web API following REST standards | [learn-x-with-ap
 
 Project Name | Project Description | Additional Info
 ------------ | ------------------- | ---------------
-note-taker | A mobile-first note taking app | 
+Note Taker | A mobile-first note taking app | 
 To Do List | A standard todo list, add/remove tasks | [ToDo MVC](http://todomvc.com/)
+Chat Room | A realtime chatroom | 
 
 ## Contribution
 
