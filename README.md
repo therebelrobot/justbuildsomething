@@ -10,12 +10,16 @@ All ideas here are released for whatever you like under the [WTFPL-2.0](https://
 
 Project Name | Project Description | Additional Info
 ------------ | ------------------- | ---------------
+calculator | simple addition, subtraction, multiplication, division | Maybe try order of operations parsing?
+REST api | an outward-facing web API following REST standards | [learn-x-with-apis](https://github.com/therebelrobot/learn-x-with-apis)
+
 
 ### UI Applications
 
 Project Name | Project Description | Additional Info
 ------------ | ------------------- | ---------------
 note-taker | A mobile-first note taking app | 
+To Do List | A standard todo list, add/remove tasks | [ToDo MVC](http://todomvc.com/)
 
 ## Contribution
 
