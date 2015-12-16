@@ -1,0 +1,255 @@
+[
+{
+"title": "Add Transactions In File and Find Averages",
+"description": "Read in a file of financial transactions, group them into accounts, add up fields or find averages or apply credits and debits to each account.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Address Book",
+"description": "Keep track of various contacts, their numbers, emails and little notes about them like a Rolodex in the database. For extra complexity, allow the user to connect to a website publish their address book based on specific options the user has set.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Budget Tracker",
+"description": "Write an application that keeps track of a household’s budget. The user can add expenses, income, and recurring costs to find out how much they are saving or losing over a period of time. For added complexity allow the user to specify a date range and see the net flow of money in and out of the house budget for that time period.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Bulk Picture Manipulator",
+"description": "This program will take in a directory of pictures and apply a certain effect to them whether it be reducing color count, changing its format, or alter file attributes. For something extra try to see if you can also create a system to tag them. ",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Bulk Renamer and Organizer",
+"description": "This program will take a series of files and renames them with a specific filename filter entered by the user. For instance if the user enters myimage###.jpg it will rename all files with a “minimum” of three numbers like “myimage001.jpg”, “myimage145.jpg” or even “myimage1987.jpg” since 1987 has at least three numbers.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Bulk Thumbnail Creator",
+"description": "Picture processing can take a bit of time for some transformations. Especially if the image is large. Create an image program which can take hundreds of images and converts them to a specified size in the background thread while you do other things. For added complexity, have one thread handling re-sizing, have another bulk renaming of thumbnails etc.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "calculator",
+"description": "simple addition, subtraction, multiplication, division",
+"additional_details": "Maybe try order of operations parsing?"
+},{
+"title": "Check if Palindrome",
+"description": "Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar”",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "choose your own adventure",
+"description": "Build a text-based adventure game where the user can choose where to go and what to do",
+"additional_details": "[source](http://knightlab.northwestern.edu/2014/06/05/five-mini-programming-projects-for-the-python-beginner/)"
+},{
+"title": "Code Snippet Manager",
+"description": "Another utility program that allows coders to put in functions, classes or other tidbits to save for use later. Organized by the type of snippet or language the coder can quickly look up code. For extra practice try adding syntax highlighting based on the language.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Count Vowels",
+"description": "Enter a string and the program counts the number of vowels in the text. For added complexity have it report a sum of each vowel found.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Count Words in a String",
+"description": "Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Country from IP Lookup",
+"description": "Enter an IP address and find the country that IP is registered in.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Create Zip File Maker",
+"description": "The user enters various files from different directories and maybe even another computer on the network and the program transfers them and zips them up into a zip file. For added complexity, apply actual compression to the files.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Database Backup Script Maker",
+"description": "A program which reads a database’s objects, relationships, records and stored procedures and creates a .sql file which can then be imported into another database or kept as a backup file to rebuild the database with.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Database Translation (MySQL <-> SQL Server)",
+"description": "A simple utility that reads in from one database and constructs SQL compliant with another database. Then saves that to another database. One popular transition would be to and from MySQL server for databases like SQL Server and Oracle.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "dice roller",
+"description": "simulate the rolling of dice",
+"additional_details": "Maybe try different kinds of die? d20 for example? [source](http://knightlab.northwestern.edu/2014/06/05/five-mini-programming-projects-for-the-python-beginner/)"
+},{
+"title": "Entity Relationship Diagram (ERD) Creator",
+"description": "A program that allows the user to put together ERD diagram and save it or have it generate some basic SQL syntax to give them a jump start.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Event Scheduler and Calendar",
+"description": "Make an application which allows the user to enter a date and time of an event, event notes and then schedule those events on a calendar. The user can then browse the calendar or search the calendar for specific events. For added complexity, allow the application to create reoccurrence events that reoccur every day, week, month, year etc.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Excel Spreadsheet Exporter",
+"description": "Create an online application which can read in a file and create an Excel Spreadsheet to export back. This can be through CVS or other file formats. For added complexity, see if you can create formula fields as well.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Fetch Current Weather",
+"description": "Get the current weather for a given zip/postal code. ",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "File Copy Utility",
+"description": "Create a utility that can do bulk file copying and backups of other files.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Fortune Teller (Horoscope)",
+"description": "A program that checks your horoscope on various astrology sites and puts them together for you each day.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Get Atomic Time from Internet Clock",
+"description": "This program will get the true atomic time from an atomic time clock on the Internet. There are various clocks across the world. Do a search for a list of them.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Image Browser",
+"description": "This application is used to view various image files on your computer from PNG, GIF, JPG to BMP, TIFF etc.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Import Picture and Save as Grayscale",
+"description": "A utility that sucks the color right out of an image and saves it. You could add more including adjusting contrast, colorizing and more for added complexity.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Log File Maker",
+"description": "Make an application which logs various statistics in response to given events. This can be something that logs what an application does, what the system is doing, when something like a file changes etc.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "mad libs",
+"description": "Build a story from user input",
+"additional_details": "[source](http://knightlab.northwestern.edu/2014/06/05/five-mini-programming-projects-for-the-python-beginner/)"
+},{
+"title": "Mail Checker (POP3 / IMAP)",
+"description": "The user enters various account information include web server and IP, protocol type (POP3 or IMAP) and the application will check for email on several accounts at a given interval.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Mp3 Player (and Other Formats)",
+"description": "A simple program for playing your favorite music files. For extra complexity see if you can add in playlists and an equalizer.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Mp3 Tagger",
+"description": "Modify and add ID3v1 tags to MP3 files. See if you can also add in the album art into the MP3 file’s header as well as other ID3v2 tags.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "MP3 to Wav Converter",
+"description": "MP3 is essentially compressed wav format. See if you can translate it back into wav so that some other sound editing programs can work with the wav file itself. Keep in mind that 1 MB of MP3 is relative 10MB wav.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "News Ticker and Game Scores",
+"description": "A program which sits on your desktop and aggregates news and game scores from various sources on the net. It then scrolls them across the screen on regular intervals.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Packet Sniffer",
+"description": "A utility program that will read packets coming in and out of the machine along with related information like destination and payload size.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "PDF Generator",
+"description": "An application which can read in a text file, html file or some other file and generates a PDF file out of it. Great for a web based service where the user uploads the file and the program returns a PDF of the file.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Pig Latin",
+"description": "Pig Latin is a game of alterations played on the English language game. To create the Pig Latin form of an English word the initial consonant sound is transposed to the end of the word and an ay is affixed (Ex.: "banana" would yield anana-bay). Read Wikipedia for more information on rules.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Port Scanner",
+"description": "Enter an IP address and a port range where the program will then attempt to find open ports on the given computer by connecting to each of them. On any successful connections mark the port as open.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Random Gift Suggestions",
+"description": "Enter various gifts for certain people when you think of them. When its time to give them a gift (xmas, birthday, anniversary) it will randomly pick one and perhaps places you can get it.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Regex Query Tool",
+"description": "A tool that allows the user to enter a text string and then in a separate control enter a regex pattern. It will run the regular expression against the source text and return any matches or flag errors in the regular expression.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Remote SQL Tool",
+"description": "A utility that can execute queries on remote servers from your local computer across the Internet. It should take in a remote host, user name and password, run the query and return the results.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Report Generator",
+"description": "Create a utility that generates a report based on some tables in a database. Generates a sales reports based on the order/order details tables or sums up the days current database activity.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "REST api",
+"description": "an outward-facing web API following REST standards",
+"additional_details": "[learn-x-with-apis](https://github.com/therebelrobot/learn-x-with-apis)"
+},{
+"title": "Reverse a String",
+"description": "Enter a string and the program will reverse it and print it out.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "RPG Character Stat Creator",
+"description": "Make a program which will randomly create a character’s stats based on several rules set forth by the user. Have it generate a class, gender, strength/magic/dexterity points, and extra abilities or trades. Have it save it to a file which can then be printed out by a dungeon master.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "RSS Feed Creator",
+"description": "A program which can read in text from other sources and put it in RSS or Atom news format for syndication.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Screen Capture Program",
+"description": "Make a utility that will simply capture a frame from your web cam. For added complexity see if you can also build in emailing functionality.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Signature Maker",
+"description": "Ever seen those web board posts where someone has a generated signature made up? See if you can make a program that allows the user to specify a background, text, colors and alignment to make their own signatures or userbars.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Site Checker with Time Scheduling",
+"description": "An application that attempts to connect to a website or server every so many minutes or a given time and check if it is up. If it is down, it will notify you by email or by posting a notice on screen.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Small Web Server",
+"description": "A simple web server that can serve HTML files that contain Javascript and other forms of non-code executing code. Added complexity would be to try and implement streaming video, create a server-side language, or serve up other stream types.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Sort File Records Utility",
+"description": "Reads a file of records, sorts them, and then writes them back to the file. Allow the user to choose various sort style and sorting based on a particular field.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "SQL Query Analyzer",
+"description": "A utility application which a user can enter a query and have it run against a local database and look for ways to make it more efficient.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Text to HTML Generator",
+"description": "Converts text files into web HTML files and stylizes them. Great for making online documentation of standard text documentation.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Traffic Light Application",
+"description": "See if you can make your own street light application and then put it into an intersection scenario. Don’t let any cars run the lights and crash into one another!",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Travel Planner System",
+"description": "Make a system that allows users to put together their own little travel itinerary and keep track of the airline / hotel arrangements, points of interest, budget and schedule. ",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "TV Show Tracker",
+"description": "Got a favorite show you don’t want to miss? Don’t have a PVR or want to be able to find the show to then PVR it later? Make an application which can search various online TV Guide sites, locate the shows/times/channels and add them to a database application. The database/website then can send you email reminders that a show is about to start and which channel it will be on.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Versioning Manager",
+"description": "Create your own versioning system for code files. Users are forced to check out items and lock items during reading and writing so that a group of programmers are not accidentally overwriting code files on one another.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Vigenere / Vernam / Ceasar Ciphers",
+"description": "Functions for encrypting and decrypting data messages. Then send them to a friend.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Wallpaper Manager",
+"description": "Make a program which keeps track of your favorite wallpapers, changes them regularly and maybe even re-sizes them for your resolution (aka tiles one and stretches another)",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Watermarking Application",
+"description": "Have some pictures you want copyright protected? Add your own logo or text lightly across the background so that no one can simply steal your graphics off your site. Make a program that will add this watermark to the picture.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Web Bot",
+"description": "An automated program which carries out tasks on the web including checking websites, page scraping, and summarization of data or web posting.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Whois Search Tool",
+"description": "Enter an IP or host address and have it look it up through whois and return the results to you.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "YouTube Downloader",
+"description": "A program which can download videos to your hard drive from youtube.com. Save the files in various formats including FLV and AVI.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+},{
+"title": "Zip / Postal Code Lookup",
+"description": "Enter a zip or postal code and have it return which city/cities that are in that zip code.",
+"additional_details": "[source](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)"
+}
+]
