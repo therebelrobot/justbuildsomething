@@ -1,8 +1,18 @@
+var request = window.superagent
+
 $(document).ready(mainApp)
 function mainApp () {
+  var ideas = m.prop({})
   var JBS = {
     // controller
     controller: function () {
+      request.get('/ideas.json').end(function(err, data){
+        if(err){
+          throw new Error(err)
+        }
+        ideas(data)
+        console.log(ideas())
+      })
       return {}
     },
     view: function (ctrl) {
