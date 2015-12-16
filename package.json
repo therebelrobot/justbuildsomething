@@ -1,0 +1,19 @@
+{
+  "name": "justbuildsomething",
+  "version": "1.0.0",
+  "description": "[![Just Build Something](https://img.shields.io/badge/just-build_something-blue.svg?style=flat-square)](https://github.com/therebelrobot/justbuildsomething) [![WTFPL-2.0](https://img.shields.io/badge/license-WTFPL--2.0-blue.svg?style=flat-square)](https://tldrlegal.com/license/do-wtf-you-want-to-public-license-v2-(wtfpl-2.0))",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therebelrobot/justbuildsomething.git"
+  },
+  "author": "Trent Oswald <trentoswald@therebelrobot.com> (@therebelrobot)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/therebelrobot/justbuildsomething/issues"
+  },
+  "homepage": "https://github.com/therebelrobot/justbuildsomething#readme"
+}
