@@ -11,9 +11,12 @@ function mainApp () {
       m('br'),
       "We've got you covered."
     ],
-    additional_details: null
+    additional_details: null,
+    tags:[]
   })
+  var ideaTags = m.prop([])
   var anotherIdea = m.prop(false)
+  var noOtherIdeas = m.prop(false)
   var JBS = {
     // controller
     controller: function () {
@@ -22,12 +25,42 @@ function mainApp () {
           throw new Error(err)
         }
         ideas(data.body)
-        console.log(ideas())
         m.redraw(true)
       })
       return {}
     },
     view: function (ctrl) {
+      var tags = _.pluck(ideas(), 'tags')
+      tags = _.flatten(tags)
+      tags = _.uniq(tags)
+      var getTagOptions = {}
+      var getTagContents = []
+      if(noOtherIdeas()){
+        getTagOptions.disabled = true
+        getTagContents = ['No others found. Clear Tags',  m('i.fa.fa-close.animated')]
+          getTagOptions.config= function (el, isInit, context) {
+            if (isInit) return
+            el.onclick = function (event) {
+              ideaTags([])
+              getIdea()
+              $('.tags-select').trigger("change")
+            }
+          }
+      } else{
+        getTagContents = [
+          'Give me something ',
+          m('span', {
+            className: anotherIdea()? '': 'hidden'
+          }, 'else '),
+          m('i.fa.fa-angle-double-up.animated')
+        ]
+        getTagOptions.config= function (el, isInit, context) {
+          if (isInit) return
+          el.onclick = function (event) {
+            getIdea()
+          }
+        }
+      }
       return m('.wrapper', [
         m("nav.navbar.navbar-custom.navbar-fixed-top[role='navigation']", [
           m('.container', [
@@ -45,20 +78,28 @@ function mainApp () {
             m('.collapse.navbar-collapse.navbar-right.col-md-6', [
               m('ul.nav.navbar-nav.col-md-3', [
                 m('li.col-md-12', [
-                  m('select.form-control', {
+                  m('select.form-control.tags-select', {
                     config: function (el, isinit, context) {
                       if (isinit) return
-                      console.log(el)
                       $(el).select2({
                         tags: true,
                         tokenSeparators: [','],
                         placeholder: 'Search by tag',
-                        allowClear:true
+                        allowClear: true
                       })
+                      el.onchange = function (event) {
+                        var value = $(el).val() || []
+                        ideaTags(value)
+                        getIdea()
+                      }
                     },
-                    multiple:"multiple"
-                  }, _.map(ideas(), function (idea) {
-                    return m('option', idea.title)
+                    multiple: 'multiple'
+                  }, _.map(tags, function (tag) {
+                    var options = {}
+                    if(ideaTags().indexOf(tag)>-1){
+                      options.selected = true
+                    }
+                    return m('option', options, tag)
                   }))
                 ])
               ])
@@ -72,22 +113,21 @@ function mainApp () {
                 m('.col-md-8.col-md-offset-2', [
                   m('h1.brand-heading', thisIdea().title),
                   m('p.intro-text', thisIdea().description),
-                  m("a.btn.btn-circle.page-scroll[href='#']", {
-                    config: function (el, isInit, context) {
-                      if (isInit) return
-                      console.log('initing')
-                      el.onclick = function (event) {
-                        console.log('clicking')
-                        getIdea()
+                  m('p.tags', _.map(thisIdea().tags, function(tag){
+                    return m('span.badge', {
+                      config:function(el, isInit, context){
+                        el.onclick = function(event){
+                          var localideaTags = ideaTags()
+                          localideaTags.push(tag)
+                          localideaTags = _.uniq(localideaTags)
+                          ideaTags(localideaTags)
+                          getIdea()
+                          $('.tags-select').trigger("change")
+                        }
                       }
-                    }
-                  }, [
-                    'Give me something ',
-                    m('span', {
-                      className: anotherIdea()? '': 'hidden'
-                    }, 'else '),
-                    m('i.fa.fa-angle-double-up.animated')
-                  ])
+                    }, tag)
+                  })),
+                  m("a.btn.btn-circle.page-scroll[href='#']", getTagOptions, getTagContents)
                 ])
               ])
             ])
@@ -98,14 +138,22 @@ function mainApp () {
   }
   // initialize
   m.mount(document.getElementById('justbuildsomething'), JBS)
-  var getIdea = function (tag) {
-    var tag = tag
+  var getIdea = function () {
+    var tags = ideaTags()
     anotherIdea(true)
-    if (!tag) {
-      var randomIndex = getRandom(0, ideas().length - 1)
-      thisIdea(ideas()[randomIndex])
-      m.redraw(true)
+    var localIdeas = ideas()
+    if (tags.length) {
+      var localIdeas = _.filter(ideas(), function (idea) {
+        var intersection = _.intersection(idea.tags, tags)
+        return !!intersection.length
+      })
     }
+    localIdeas = _.reject(localIdeas,thisIdea())
+    noOtherIdeas(localIdeas.length === 1)
+    var randomIndex = getRandom(0, localIdeas.length - 1)
+    thisIdea(localIdeas[randomIndex])
+    console.log('redrawing')
+    m.redraw(true)
   }
 }
 

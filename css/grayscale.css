@@ -418,3 +418,9 @@ ul.select2-results__options li{
   color:black;
   font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+.badge {
+  margin:3px;
+  font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform:lowercase;
+  cursor:pointer;
+}
